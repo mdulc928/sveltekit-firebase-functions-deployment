@@ -1,0 +1,23 @@
+{
+	"hosting": {
+		"public": "functions/build/client",
+		"ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+		"rewrites": [
+			{
+				"source": "**",
+				"function": {
+					"functionId": "helloWorld",
+					"region": "us-east1",
+					"pinTag": true
+				}
+			}
+		]
+	},
+	"functions": [
+		{
+			"source": "functions",
+			"codebase": "default",
+			"ignore": ["node_modules", ".git", "firebase-debug.log", "firebase-debug.*.log", "*.local"]
+		}
+	]
+}
