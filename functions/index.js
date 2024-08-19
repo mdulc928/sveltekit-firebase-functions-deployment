@@ -19,7 +19,7 @@ import { dirname, join } from 'path';
 
 // Create and deploy your first functions
 // https://firebase.google.com/docs/functions/get-started
-
+// This can be mitigated by using a higher version of node for your node engine. I recommend node 20.
 installPolyfills();
 
 const app = new express();
