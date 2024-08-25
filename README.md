@@ -1,7 +1,7 @@
 # sveltekit-firebase-functions-deployment
 This is the structure for a Sveltekit Firebase Hosting and Functions project. This was worth the 2 weeks spent trying to make everything work.
 
-- make sure to `npm i` and `npm run dev` which should generate the public directory for you.
+- make sure to `npm i` and `npm run build` which should generate the public directory for you.
 
 # Notes
 ### Caveats
