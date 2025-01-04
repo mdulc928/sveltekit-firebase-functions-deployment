@@ -1,3 +1,5 @@
+> **(notice)** There is an even better way to deploy to Firebase functions with  `adapter-node`, so I am no longer recommending this way. I am making a new video about this and will update this repo for that.
+
 # sveltekit-firebase-functions-deployment
 This is the structure for a Sveltekit Firebase Hosting and Functions project. This was worth the 2 weeks spent trying to make everything work.
 
