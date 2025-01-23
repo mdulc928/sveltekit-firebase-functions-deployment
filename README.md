@@ -1,4 +1,6 @@
-> **(notice)** There is an even better way to deploy to Firebase functions with  `adapter-node`, so I am no longer recommending this way. I am making a new video about this and will update this repo for that (subscribe to know when it's becomes available - yes, I unashamedly growing my Youtube channel https://youtube.com/@melchisedekdulcio, and it costs you nothing to subscribe 😉) 
+> **(notice)** There is an even better way to deploy to Firebase functions with  `adapter-node`, so I am no longer recommending this way. I am making a new video about this and will update this repo for that (subscribe to know when it's becomes available - yes, I unashamedly growing my Youtube channel https://youtube.com/@melchisedekdulcio, and it costs you nothing to subscribe 😉)
+>
+> For the time being here is a real example of where I am using this new and simpler structure:: https://github.com/wfleu445/feeling-haiti-project/tree/main/landing-page. Pay attention to the `package.json`, `firebase_functions.js` and `svelte.config.js` of course. Also take note of where the Firebase files are and you will get a pretty decent idea of how to structure things.
 
 # sveltekit-firebase-functions-deployment
 This is the structure for a Sveltekit Firebase Hosting and Functions project. This was worth the 2 weeks spent trying to make everything work.
